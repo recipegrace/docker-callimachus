@@ -7,9 +7,9 @@ RUN apt-get upgrade -y
 RUN apt-get install -y openjdk-7-jdk wget unzip
 
 WORKDIR /home
-RUN wget https://github.com/3-Round-Stones/callimachus/releases/download/v1.5.0/callimachus-1.5.0.zip
-RUN unzip callimachus-1.5.0.zip
-RUN rm callimachus-1.5.0.zip
+RUN wget https://github.com/3-Round-Stones/callimachus/releases/download/v1.5.1/callimachus-1.5.1.zip
+RUN unzip callimachus-1.5.1.zip
+RUN rm callimachus-1.5.1.zip
 
 ADD callimachus.conf /home/etc/callimachus.conf
 
