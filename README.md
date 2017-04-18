@@ -1,2 +1,2 @@
 # Docker Callimachus
-Docker (and Vagrant) configuration for callimachus
+Docker configuration for callimachus upgraded to the latest version!
